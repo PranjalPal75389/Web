@@ -1,0 +1,30 @@
+* {
+
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+}
+
+#numberlabel {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+
+}
+
+#btncontainer {
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgb(157, 219, 248);
+    border-radius: 7px;
+    transition-delay: 0.1s;
+}
+
+.btn:hover {
+    background-color: #103af782;
+
+}
