@@ -1,0 +1,22 @@
+* {
+    font-family: 'Fira Code', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#submitBtn {
+    background-color: lightblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: lightgreen;
+}
+
+form {
+    border: 2px solid black;
+    max-width: 400px;
+    margin: 0 auto;
+}
