@@ -1,0 +1,28 @@
+body {
+  font-family: "fira code";
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+div {
+  width: 450px;
+  max-width: 1000px;
+  border: 2px solid blueviolet;
+  margin: 10%;
+}
+button {
+  border-radius: 8px;
+  background-color: bisque;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: large;
+}
+button:hover {
+  background-color: aqua;
+}
+input {
+  font-size: 30px;
+}
