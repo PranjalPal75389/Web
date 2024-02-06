@@ -46,4 +46,3 @@ function stopWatch(){
 
 
 
-// updateTimerDisplay(); // Set initial timer display
