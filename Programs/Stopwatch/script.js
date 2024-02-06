@@ -45,45 +45,5 @@ function stopWatch(){
 
 
 
-// const startButton = document.querySelector(".startButton");
-// const stopButton = document.querySelector(".stopButton");
-// const resetButton = document.querySelector(".resetButton");
-// const timer = document.querySelector(".timer");
-
-// let intervalId;
-// let totalSeconds = 0;
-
-// function updateTimerDisplay() {
-//   const minutes = Math.floor(totalSeconds / 60);
-//   const seconds = totalSeconds % 60;
-//   timer.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-// }
-
-// function start() {
-//   if (!intervalId) {
-//     intervalId = setInterval(() => {
-//       totalSeconds++;
-//       updateTimerDisplay();
-//     }, 1000);
-//   }
-//   stopButton.disabled = false;
-//   resetButton.disabled = true;
-// }
-
-// function stop() {
-//   clearInterval(intervalId);
-//   intervalId = null;
-//   stopButton.disabled = true;
-//   resetButton.disabled = false;
-// }
-
-// function reset() {
-//   clearInterval(intervalId);
-//   intervalId = null;
-//   totalSeconds = 0;
-//   updateTimerDisplay();
-//   stopButton.disabled = true;
-//   resetButton.disabled = false;
-// }
 
 // updateTimerDisplay(); // Set initial timer display
