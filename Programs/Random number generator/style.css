@@ -1,10 +1,23 @@
-body {
+body{
     font-family: sans-serif;
-    text-align: center;
+    
 }
+
 button{
     font-size: large;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size:x-large;
+  height: 41px;
+  margin: 5px ;
+  text-align: center;
+  
 }
+
 label{
     font-size: 30px;
+  text-align: center;
 }

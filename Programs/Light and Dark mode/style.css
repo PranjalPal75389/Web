@@ -1,0 +1,38 @@
+*{
+    font-family:  monospace;
+   margin:0px 0px;
+
+}
+.article{
+    
+    
+    margin-top: 111px;
+}
+h1{
+    margin:20px ;
+}
+p{
+    font-size: 20px;
+    margin-left:25px;
+    
+}
+.mode{
+position: fixed;
+top:5px;
+right: -2px;
+float: right;
+}
+.modeName{
+  border:2px solid black;
+  border-radius: 5px;
+  background-color:green;
+  text-align: center;
+  
+}
+
+button{
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:20px auto;
+    padding: 0px 0px;
+}

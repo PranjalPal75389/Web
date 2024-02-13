@@ -1,6 +1,5 @@
 let Name=document.getElementById("name");
 let Mob=document.getElementById("mobno.");
-const special=document.getElementById("special");
 const last=document.getElementById("last");
 function run(){
     

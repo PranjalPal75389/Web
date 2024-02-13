@@ -6,6 +6,7 @@ div{
     justify-content: center;
 }
 form{
+    caret-color: red;
     background-color: lightskyblue;
     margin: 0px auto;
     padding: 10px 10px;
@@ -25,4 +26,10 @@ form{
 } 
 .socialLinks{
     width: 75%;
+  
+}
+textarea{
+    width: 96%;
+    resize: vertical;
+    overflow: scroll;
 }

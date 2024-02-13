@@ -1,7 +1,7 @@
 * {
 
     font-family: monospace;
-    font-size: larger;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -14,12 +14,11 @@
 
 #btncontainer {
     text-align: center;
-    padding: 5px 5px;
+    padding: 5px 2px;
 }
 
 .btn {
     cursor: pointer;
-    background-color: rgb(157, 219, 248);
     border-radius: 7px;
     transition-delay: 0.1s;
 }
@@ -27,4 +26,13 @@
 .btn:hover {
     background-color: #103af782;
 
+}
+#decreasebtn{
+  background-color: red;
+}
+#resetbtn{
+  background-color: grey;
+}
+#increasebtn{
+  background-color: greenyellow;
 }

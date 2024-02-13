@@ -8,10 +8,16 @@ body {
   top: 50%;
 }
 div {
+  background-color: lightblue;
   width: 450px;
   max-width: 1000px;
-  border: 2px solid blueviolet;
-  margin: 10%;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+  margin: 10px;
+}
+div:hover {
+  box-shadow: 5px 5px grey;
+  height: 105%;
 }
 button {
   border-radius: 8px;
@@ -25,4 +31,7 @@ button:hover {
 }
 input {
   font-size: 30px;
+}
+label {
+  font-size: 20px;
 }
