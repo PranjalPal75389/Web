@@ -21,6 +21,9 @@ function calculate() {
       age -= 1;
     }
     console.log(age);
+    if(age<3)
+    result.textContent = `I don't think you are old enough you must be 3 years old `;
+  else
     result.textContent = `You are ${age} years old`;
   }
 }
