@@ -1,8 +1,6 @@
 * {
-
     font-family: monospace;
-    font-size: 23px;
-    text-align: center;
+    font-size: 26px;
 }
 
 #numberlabel {
@@ -28,7 +26,7 @@
 
 }
 #decreasebtn{
-  background-color: red;
+  background-color: tomato;
 }
 #resetbtn{
   background-color: grey;
