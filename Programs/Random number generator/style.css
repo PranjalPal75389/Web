@@ -1,23 +1,26 @@
 body{
-    font-family: sans-serif;
+    font-family: monospace,'Courier New', Courier;
     
 }
 
 button{
-    font-size: large;
+  font-size: large;
   background-color: lightblue;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
   font-size:x-large;
   height: 41px;
   margin: 5px ;
   text-align: center;
-  
+ 
 }
 
 label{
     font-size: 30px;
   text-align: center;
+}
+button:hover{
+ font-size: 27px;
+ font-weight: bold;
 }
