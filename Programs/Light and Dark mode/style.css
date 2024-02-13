@@ -4,8 +4,6 @@
 
 }
 .article{
-    
-    
     margin-top: 111px;
 }
 h1{
@@ -16,18 +14,23 @@ p{
     margin-left:25px;
     
 }
+
 .mode{
-position: fixed;
-top:5px;
-right: -2px;
-float: right;
+    top: 5px;
+        position: fixed;
+        right: 5px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
 }
 .modeName{
-  border:2px solid black;
-  border-radius: 5px;
-  background-color:green;
-  text-align: center;
-  
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: green;
+    text-align: center;
+    width: max-content;
+    margin:5px auto;
+    padding: 5px;
 }
 
 button{
