@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+   <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name here" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your Email" required><br>
+
+    <label for="password"  >Create Password</label>
+    <input type="password" id="password" placeholder="Create a Password" minlength="8" required><br>
+
+    <label for="class">Class</label>
+    <select id="class">
+        <option value="FYBSCIT" >FY BSC IT</option>
+        <option value="SYBSCIT">SY BSC IT</option>
+        <option value="TYBSCIT">TY BSC IT</option>
+    </select><br>
+    <label for="age ">Age</label>
+    <input type="number" id="age" min="1" max="100" value="18" size="8"><br>
+
+    Sex/Gender:<br>
+    <input type="radio" name="gender" value="male">Male     
+    <input type="radio" name="gender" value="female">Female   
+    <input type="radio" name="gender">Others(My friends)<br>  
+    
+    <label for="mobno.">if you are female please drop your no. </label><br>
+     👉 <input type="tel" id="mobno." placeholder="Write your no. here😊" size="25"><br>
+
+    Which are your interest <br>
+    <label><input type="checkbox" class="interest" >C</label>
+    <label><input type="checkbox" class="interest" >C++</label>
+    <label><input type="checkbox" class="interest" >Java</label>
+    <label><input type="checkbox" class="interest" >Python</label>
+    <label><input type="checkbox" class="interest" >Others </label><br>
+    <label for="DOB">Date of birth</label>
+    <input type="date" id="DOB"><br>
+    <label for="pincode" >Pin Code:</label>
+    <input type="text" id="pincode" maxlength="6" size="10" placeholder="Postol No."><br>
+    <label for="city">City</label>
+    <input type="text" id="city" value="mumbai" ><br>
+    <b>IMP SocialLinks</b><br>
+    <label>Linkedin <input type="url" class="socialLinks" ></label><br>
+    <label>Github   <input type="url" class="socialLinks" ></label><br>
+    <input type="file" id="uploadImage"  accept="image/png"><br>
+    <label for="uploadImage">upload your Photo</label>
+    <input type="file" id="uploadResume" accept=".pdf , .docx ,.ppt,.pptx,.txt,.xml"><br>
+    <label for="uploadDocs">upload your Resume / Documents</label><br>
+    
+    
+    <label for="feedback"> Feedback:</label><br>
+    <textarea rows="3"  cols="40" id="feedback">you can write your opinion /feedback/comments here </textarea><br>
+    <input type="reset" id="reset" class="button">
+    <input type="submit" id="sumit" class="button" onclick="run()" value="Submit">
+    <h3 id="last"></h3>
+   </form>
+</div>
+   <script src="script.js"></script>
+</body>
+</html>
