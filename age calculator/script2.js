@@ -1,6 +1,6 @@
 const ageInput = document.getElementById("ageInput");
 const result = document.getElementById("result");
-const calculateBtn = document.getElementById("calculateBtn");
+const Btn = document.getElementById("Btn");
 
 function calculateAge() {
   let birthdateValue = ageInput.value;
