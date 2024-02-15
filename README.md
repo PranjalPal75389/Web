@@ -1,4 +1,4 @@
-Circumference of the circle - https://pranjalpal75389.github.io/Web/Circumference of the circle
+Circumference of the circle - https://pranjalpal75389.github.io/Web/Circumference of the circle/
 Form - https://pranjalpal75389.github.io/Web/Form
 Guess the Number - https://pranjalpal75389.github.io/Web/Guess the Number
 Light and Dark mode - https://pranjalpal75389.github.io/Web/Light and Dark mode
