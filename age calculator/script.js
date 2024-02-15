@@ -1,7 +1,7 @@
 const ageInput = document.getElementById("ageInput");
 const result = document.getElementById("result");
 const Btn = document.getElementById("Btn");
-function calculate() {
+function calculateAge() {
   let birthdatevalue = ageInput.value;
   if (birthdatevalue === "") {
     window.alert("Please Select the Date of Birth");
