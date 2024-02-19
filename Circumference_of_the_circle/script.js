@@ -12,6 +12,10 @@ submitbutton.onclick = function () {
   if (isNaN(radius)) {
     result.textContent = "NO LETTERS ONLY NUMBERS!!!";
     return;
+  }
+  if(radius<=0){
+    result.textContent ="radius can't be zero or negative";
+    return;
   } else {
     circumference = 2 * PI * radius;
     result.textContent = "circumference =" + circumference.toFixed(2) + "cm";
