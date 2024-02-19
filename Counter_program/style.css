@@ -1,36 +1,46 @@
 * {
-    font-family: monospace;
-    font-size: 26px;
+
+  font-family: monospace;
+  font-size: 26px;
+}
+
+body {
+  height: 100vh;
+  background: rgb(52, 231, 158);
+  background: linear-gradient(130deg, rgba(52, 231, 158, 1) 23%, rgba(59, 54, 195, 1) 49%, rgba(70, 210, 252, 1) 73%);
 }
 
 #numberlabel {
-    display: block;
-    text-align: center;
-    font-size: 3em;
+  display: block;
+  text-align: center;
+  font-size: 3em;
 
 }
 
 #btncontainer {
-    text-align: center;
-    padding: 5px 2px;
+  text-align: center;
+  padding: 5px 2px;
 }
 
 .btn {
-    cursor: pointer;
-    border-radius: 7px;
-    transition-delay: 0.1s;
+  cursor: pointer;
+  border-radius: 7px;
+  transition-delay: 0.1s;
 }
 
 .btn:hover {
-    background-color: #103af782;
+  background-color: #103af782;
 
 }
-#decreasebtn{
+
+#decreasebtn {
   background-color: tomato;
 }
-#resetbtn{
+
+#resetbtn {
   background-color: grey;
 }
-#increasebtn{
-  background-color: greenyellow;
+
+#increasebtn {
+  background-color: rgb(74, 224, 36);
 }
