@@ -12,7 +12,6 @@ function tipCalculate() {
         return 0;
     }
     else if (isNaN(Amount) || isNaN(Percentage)) {
-        alert("NO LETTERS ONLY NUMBERS!!!")
         message.textContent = "NO LETTERS ONLY NUMBERS!!!";
         return 0;
     }
@@ -21,12 +20,13 @@ function tipCalculate() {
         return 0;
     }
     else {
-        message.remove();
+        
         total = Amount * (1 + Percentage / 100);
         // tip=Amount*Percentage/100;
         // total=Amount+tip; 
 
         console.log(total.toFixed(2));
         totalAmount.innerHTML = `Your Total: <b> ₹ ${total.toFixed(2)} </b> (Tip = <b>₹ ${(total - Amount).toFixed(2)} </b>)`;
+	message.textContent = "";
     }
 }  
