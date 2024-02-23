@@ -1,26 +1,17 @@
-function start(){
-  let attempt = 0;
-  let running = true;
-  random = Math.floor(Math.random() * 100) + 1;
-  console.log(random);
-  input = window.prompt("Guess the number between 1 to 100");
-  while (running) {
-    attempt++;
-    if (random == input) {
-      window.alert(
-        `congratution 🎊🎉🎉 you guess the number in ${attempt} attempt`
-      );
-      if (attempt == 1) {
-        window.alert(
-          ` you scored the highest score. only 3 % people👯 have this record🏆`
-        );
-      }
+function start() {
+    randNum = Math.floor(Math.random() * 100) + 1;
+    attempt = 1;
+    console.log("Random Number : ", randNum);
+    input = prompt("Enter a Number between 1 to 100");
 
-      running = false;
-    } else if (input > random) {
-      input = window.prompt("Your guess is to big guess a smaller number");
-    } else if (input < random) {
-      input = window.prompt("Your guess is to small guess a bigger number");
+    while (input != randNum) {
+        if (isNaN(input))
+            input = prompt("Please Enter a Vaid Number");
+        else if (input < randNum)
+            input = prompt("Too small Try Higher Number");
+        else
+            input = prompt("Too Big Try Lower Number");
+        attempt++;
     }
-  }
+    console.log(" Congratulation You Successfully guessed the Number in attempt : ", attempt)
 }
