@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Change the font family for better readability */
+}
+
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    background-image: url('bgimage.jpg'); /* Replace 'your-background-image.jpg' with your image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add some padding to the body */
+}
+
+.container {
+    max-width: 600px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #fff; /* White background for the container */
+    padding: 20px; /* Add some padding to the container */
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+h1 {
+    margin-bottom: 20px; /* Add some space below the headings */
+    font-size: 24px; /* Increase the font size for headings */
+    text-align: center; /* Center align the headings */
+    color: #333; /* Dark text color */
+}
+
+input[type="text"] {
+    text-align: center;
+    width: 100%; /* Make the input field full width */
+    padding: 10px; /* Add some padding to the input field */
+    margin-bottom: 15px; /* Add some space below the input field */
+    border: 1px solid #ccc; /* Add a border to the input field */
+    border-radius: 5px; /* Add rounded corners to the input field */
+}
+
+button {
+    width: 100%; /* Make the button full width */
+    padding: 10px; /* Add some padding to the button */
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s; /* Add a smooth transition for background color */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+}
+
+button img {
+    vertical-align: middle; /* Align the image vertically with text */
+    margin-right: 5px; /* Add some space between the image and text */
+}
