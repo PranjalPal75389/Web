@@ -19,5 +19,3 @@ age calculator -  https://pranjalpal75389.github.io/Web/Age_calculator
 counter program -  https://pranjalpal75389.github.io/Web/Counter_program
 
 dice program -  https://pranjalpal75389.github.io/Web/Dice_program
-
-Random Password Generator
